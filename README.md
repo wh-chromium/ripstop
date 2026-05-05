@@ -1,6 +1,8 @@
 # ripstop
 ripgrep setup for chromium for much faster local code searches
 
+Ripstop is heavily AI generated and is experimental in nature.
+
 Probably will suggest this to chromium some time
 
 # The `ripstop` Execution Tiers
