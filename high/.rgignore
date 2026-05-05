@@ -1,0 +1,23 @@
+# Step 1: Ignore everything
+/*
+
+# Step 2: Whitelist essential directories
+!/content/
+!/chrome/
+!/base/
+!/net/
+!/ui/
+!/build/
+!/components/
+
+# Step 3: Whitelist top-level configuration files
+!/*.gn
+!/*.gni
+!/DEPS
+
+# Step 4: Re-ignore heavy/non-source subdirectories if needed
+# (Optional: reduces noise within whitelisted folders)
+/third_party/*
+!/third_party/blink/
+/chrome/test/
+/content/test/
