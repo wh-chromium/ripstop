@@ -1,0 +1,32 @@
+# 1. Build Output & Artifacts (The Non-Negotiables)
+out/
+*.pdb
+*.ilk
+*.map
+*.ninja
+*.sym
+*.tsbuildinfo
+
+# 2. Massive Test Expectations & Trace Data
+# These contain millions of lines of JSON, crash dumps, and image diffs.
+third_party/blink/web_tests/
+testing/buildbot/
+tools/perf/
+components/test/data/
+
+# 3. Heavyweight Vendor Submodules
+# These are massive codebases in their own right. If you aren't actively 
+# modifying the rendering engine, JS runtime, or WebRTC, ignore them.
+third_party/blink/
+third_party/webrtc/
+third_party/catapult/
+third_party/angle/
+third_party/swiftshader/
+third_party/dawn/
+v8/
+skia/
+
+# 4. Tooling & Node Modules
+# Prevents ripgrep from getting lost in frontend build tool dependency trees.
+node_modules/
+third_party/node/
