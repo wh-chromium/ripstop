@@ -28,5 +28,6 @@ skia/
 
 # 4. Tooling & Node Modules
 # Prevents ripgrep from getting lost in frontend build tool dependency trees.
-node_modules/
+# The **/ ensures it catches node_modules at any depth throughout the repo.
+**/node_modules/
 third_party/node/
