@@ -1,11 +1,11 @@
-# ripstop
+# chromium-ripgrep-ignore
 ripgrep setup for chromium for much faster local code searches
 
-Ripstop is heavily AI generated and is experimental in nature.
+chromium-ripgrep-ignore is heavily AI generated and is experimental in nature.
 
 Probably will suggest this to chromium some time
 
-# The `ripstop` Execution Tiers
+# The `chromium-ripgrep-ignore` Execution Tiers
 
 | Execution Profile | Philosophy | Est. Search Space | What It Scans (Includes) | What It Drops (Excludes) | Cold Cache Speed | Best Used For (Agent Task) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
